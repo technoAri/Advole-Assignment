@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyChatDemo</string>
+    <string name="facebook_app_id">411797965821552</string>
+    <string name="fb_login_protocol_scheme">fb411797965821552</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Profile</item>
+        <item>Home</item>
+        <item>About Us</item>
+        <item>Share</item>
+        <item>Log Out</item>
+    </string-array>
+</resources>
