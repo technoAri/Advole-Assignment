@@ -239,10 +239,12 @@ public class HomePageActivity extends AppCompatActivity {
             }
         }
     }
+
     @Override
     public void onBackPressed() {
         //intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            finish(); // finish activity
+        super.onBackPressed();
+        finish(); // finish activity
 
     }
 }
